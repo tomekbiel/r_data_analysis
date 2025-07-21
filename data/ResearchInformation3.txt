@@ -1,3 +1,5 @@
+SOURCE: https://data.mendeley.com/datasets/5b82ytz489/1
+
 Description
 The Student Performance Metrics Dataset provides a diverse collection of academic and non-academic attributes aimed at evaluating factors influencing student performance in higher education. It enables researchers to analyse relationships between student demographics, academic achievements, socio-economic factors, and extracurricular activities.
 
