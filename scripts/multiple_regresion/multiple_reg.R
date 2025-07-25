@@ -53,9 +53,6 @@ names(numeric_vars)
 cor_matrix <- cor(numeric_vars, use = "complete.obs")
 round(cor_matrix, 2)
 
-install.packages("corrplot")  # tylko raz
-library(corrplot)
-
 corrplot(cor_matrix, method = "color", type = "upper", tl.col = "black", addCoef.col = "black")
 # Stwórz dummy zmienne (predictors bez interceptu)
 X <- model.matrix(Overall ~ ., data = data)[, -1]  # predictors
